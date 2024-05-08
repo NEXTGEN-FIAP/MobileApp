@@ -2,21 +2,20 @@
 
 SocialRate foi construído com essas linguagens/frameworks/ferramentas:
 
-TypeScript: O TypeScript é um superconjunto tipado de JavaScript que compila para JavaScript simples.
+# TypeScript: O TypeScript é um superconjunto tipado de JavaScript que compila para JavaScript simples.
 React Native: O React Native é uma biblioteca JavaScript que permite criar aplicativos nativos para Android, iOS e outros usando o React.
-Expo: Expo é um ecossistema de ferramentas que o ajudam a desenvolver, criar, atualizar, enviar e monitorizar aplicações nativas com React Native no Android, iOS e na Web.
+# Expo: Expo é um ecossistema de ferramentas que o ajudam a desenvolver, criar, atualizar, enviar e monitorizar aplicações nativas com React Native no Android, iOS e na Web.
 SQLite: O Sqlite é um motor de base de dados SQL pequeno, rápido, autónomo, de elevada fiabilidade e com todas as funcionalidades. É o motor de base de dados mais utilizado no mundo e é um software de código aberto. 
 AsyncStorage: O AsyncStorage é um sistema de armazenamento de valores chave não encriptado, assíncrono e persistente que é global para a aplicação. Deve ser utilizado em vez do LocalStorage. Foi utilizado principalmente para a autenticação do app.
 
-O que iremos adicionar nas próximas versões?
-Python: Python é uma linguagem de programação que permite trabalhar rapidamente e integrar sistemas de forma mais eficaz.
-Java: Java SE é uma plataforma de software que ajuda a reduzir custos, diminuir o tempo de desenvolvimento, impulsionar a inovação e melhorar os serviços de aplicações. 
-C#: O C# é uma linguagem de programação de alto nível para fins gerais que suporta vários paradigmas. 
+# O que iremos adicionar nas próximas versões?
+# Python: Python é uma linguagem de programação que permite trabalhar rapidamente e integrar sistemas de forma mais eficaz.
+# Java: Java SE é uma plataforma de software que ajuda a reduzir custos, diminuir o tempo de desenvolvimento, impulsionar a inovação e melhorar os serviços de aplicações. 
+# C#: O C# é uma linguagem de programação de alto nível para fins gerais que suporta vários paradigmas. 
 
 Como e para que essas linguagens/frameworks/ferramentas serão utilizadas?
 
-
-Aplicativo Mobile (React Native, TypeScript) → API para Java:
+Aplicativo Mobile (React Native, TypeScript) → Informações salvas no banco de dados + API para Java:
 
 O aplicativo mobile envia requisições HTTP para uma API Java para realizar operações de processamento e obter respostas.
 
@@ -39,7 +38,7 @@ O aplicativo mobile recebe o feedback através de requisições HTTP diretas ou 
 
 📝 Solução e para que serve?
 
-NICHO
+# NICHO
 
 O que: Plataforma inteligente que analisa a adequação de influenciadores específicos para campanhas de marketing direcionadas, garantindo que a escolha do influenciador esteja alinhada com os objetivos e o público-alvo de cada campanha.
 
@@ -51,26 +50,26 @@ Objetivo: Alavancar as vendas dos produtos por meio de parcerias estratégicas c
 
 ⚙️ Instalação e funcionamento a nível local
 
-Passo 1:
+# Passo 1:
 
 Descarregue ou clone este repositório utilizando a ligação abaixo:
 git clone https://github.com/Yagotaguchi/socialratefront.git
 
-Passo 2:
+# Passo 2:
 Execute o seguinte comando no diretório raiz do repositório (De um cd frontend) descarregado para instalar as dependências:
 npm install
 
-Passo 3:
+# Passo 3:
 Execute o seguinte comando para executar o servidor de desenvolvimento localmente:
 npx start expo
 
-Passo 4:
+# Passo 4:
 
 Escaneie o QR e abra o aplicativo do Expo ou utilize um emulador para visualizar o aplicativo no seu celular.
 
-Acesso do diagrama visual da solução
+#Acesso do diagrama visual da solução
 
-Link: 
+# Link: 
 https://miro.com/welcomeonboard/eUY4RkRTUVFYTllvT3c4dTBvSEhaZkxCUU1VT21YU21zMlRYUFo5djdMMmJ6QUxpT2RkTEFDNFBFcUdkd0YySnwzMDc0NDU3MzU2NTg3MjAzMzY5fDI=?share_link_id=310817347936
 
 Observações importantes:
@@ -86,8 +85,3 @@ E entrega solicitou 5 telas do aplicativo, sendo assim, realizamos apenas 6 tela
   Tela de Testes (Responsável por mostrar a veracidade das funções do nosso App)
   Tela de Edição de Cadastro (Responsável por editar o cadastro do usuário)
   Tela Layout (Responsável por facilitar a navegação do app)
-
-
-
-
-
